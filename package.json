@@ -2,12 +2,14 @@
   "name": "6 cities",
   "version": "13.0.0",
   "type": "module",
+  "homepage": "https://larissazubkova.github.io/2041971-six-cities-13",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx",
     "preview": "vite preview",
-    "test": "vitest --passWithNoTests"
+    "test": "vitest --passWithNoTests",
+    "deploy": "npm run build && gh-paged -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.5",
@@ -44,6 +46,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.1",
     "faker": "5.5.3",
+    "gh-pages": "6.0.0",
     "jsdom": "22.1.0",
     "typescript": "5.0.4",
     "vite": "4.3.9",
