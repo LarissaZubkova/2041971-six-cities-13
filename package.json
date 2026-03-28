@@ -9,7 +9,7 @@
     "lint": "eslint src --ext ts,tsx",
     "preview": "vite preview",
     "test": "vitest --passWithNoTests",
-    "deploy": "npm run build && gh-paged -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "1.9.5",

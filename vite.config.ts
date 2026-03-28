@@ -12,4 +12,5 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/setupTests.ts'],
   },
+  base: '/2041971-six-cities-13'
 });

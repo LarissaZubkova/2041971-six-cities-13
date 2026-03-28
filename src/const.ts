@@ -11,9 +11,9 @@ export enum AuthorizationStatus {
   Unknown = 'UNKNOWN',
 }
 
-export const URL_MARKER_DEFAULT = 'markup/img/pin.svg';
+export const URL_MARKER_DEFAULT = `${import.meta.env.BASE_URL}/img/pin.svg`;
 
-export const URL_MARKER_CURRENT = 'markup/img/pin-active.svg';
+export const URL_MARKER_CURRENT = `${import.meta.env.BASE_URL}/img/pin-active.svg`;
 
 export const CITIES = ['Paris', 'Cologne', 'Brussels', 'Amsterdam', 'Hamburg', 'Dusseldorf'];
 
